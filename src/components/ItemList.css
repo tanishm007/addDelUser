@@ -1,0 +1,103 @@
+/* Add this CSS to your styles file or component */
+.item-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .selected-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .selected-chips > * {
+    padding: 10px;
+    margin-right: 8px;
+    border-bottom: 1px solid #000000; /* Add bottom border to selected items */
+  padding-bottom: 4px; 
+  }
+
+  li:hover {
+    background-color: #e9ebec; /* Update with the desired hover background color */
+    cursor: pointer;
+  }
+svg{
+    height: 40px;
+    width: 40px;
+  
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  span{
+    color: gray;
+  }
+  
+  .input-container {
+    
+    position: relative;
+  
+  }
+  ul {
+    list-style: none;
+    
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  li {
+    margin-bottom: 2px;
+    padding: 8px;
+    
+  }
+
+  
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #000; /* Add the desired color for the bottom border */
+    outline: none; /* Remove the default input outline */
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #007bff; /* Change the color for the bottom border on focus */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 250px; 
+    overflow-y: auto;
+    border: #000;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #d2e6fb;
+    color: rgb(130, 130, 130);
+    border: none;
+ 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
